@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LagDaemon.Akka-MUD.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagDaemon.Akka-MUD.UnitTests", "LagDaemon.Akka-MUD.UnitTests\LagDaemon.Akka-MUD.UnitTests.csproj", "{44858AFB-63DB-4716-9812-2C4B804CF763}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagDaemon.Akk-MUD.Server", "LagDaemon.Akk-MUD.Server\LagDaemon.Akk-MUD.Server.csproj", "{51CBAEEE-58A6-419F-B309-3BB8E9421FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{44858AFB-63DB-4716-9812-2C4B804CF763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44858AFB-63DB-4716-9812-2C4B804CF763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44858AFB-63DB-4716-9812-2C4B804CF763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CBAEEE-58A6-419F-B309-3BB8E9421FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CBAEEE-58A6-419F-B309-3BB8E9421FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CBAEEE-58A6-419F-B309-3BB8E9421FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CBAEEE-58A6-419F-B309-3BB8E9421FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB4F59A-9C40-44DD-B75A-80B376CBCEB8}
 	EndGlobalSection
 EndGlobal
